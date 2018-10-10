@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Arraylist6 {
@@ -16,6 +17,10 @@ public class Arraylist6 {
 		emp.add(40);
 		emp.add(50);
 		emp.add(60);
+		
+		//Iterator<Integer> emp1 = emp.iterator();
+		
+		//System.out.println("Emp1" +emp1);
 		
 		System.out.println("Before removing the index value :" +emp);
 		
